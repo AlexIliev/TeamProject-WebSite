@@ -1,0 +1,42 @@
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+#footer-content{
+	background: #EDEDED;
+}
+	#footer-content li a{
+			display: block;
+	}
+		#footer-content li a.softuni{
+			border: 0;
+		}
+			#footer-content li a.softuni:hover{
+				opacity: 0.5;
+			}
+		#footer-content li a.facebook{
+			border: 0;
+		}
+			#footer-content li a.facebook:hover{
+				opacity: 0.5;
+			}
+		#footer-content li a.twitter{
+			border: 0;
+		}
+			#footer-content li a.twitter:hover{
+				opacity: 0.5;
+			}
+		#footer-content li a.linkedin{
+			border: 0;
+		}
+			#footer-content li a.linkedin:hover{
+				opacity: 0.5;
+			}
+		#footer-content li a.github{
+			border: 0;
+		}
+			#footer-content li a.github:hover{
+				opacity: 0.5;
+			}
