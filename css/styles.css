@@ -1,10 +1,17 @@
 body{
-	background-image:url("../pictures/background.png");     
+	background-color: #66FF66;     
 	background-attachment: fixed;
 	background-size: 240px 240px;
 	background-position: center center;
 
 	font-family: "Comic Sans MS";
+}
+div{
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+-webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
+box-shadow: 0 2px 2px 0 #C2C2C2;
 }
 body, div, header, section, article, footer, h1, h2, h3, h4, nav, ul, li, p, a, figure, figcaption, img {
     margin: 0;
