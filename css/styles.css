@@ -32,23 +32,34 @@ ul {
 	background: #EDEDED;
 	height: 195px;
 }
+	#footer-content div{
+		margin: 15px;
+		padding: 15px;
+	}
 	#footer-content a{
-			display: inline-block;
+			display: block;
 	}
 	#footer-content a:hover{
-			display: inline-block;
+			display: block;
 			opacity: 0.5;
 	}
 	#footer-links{
-		display:inline-block;
-		height: 190px;
+		display:block;
+		height: 50px;
 		background: red;
-	}	
+		float:left;
+		width: 150px;
+		overflow: auto;
+	}
+		.useful-links li{
+			display:inline-block;
+		}
 		
 	#footer-partners {
 		display:inline-block;
-		height: 190px;
+		height: 100px;
 		background: skyblue;
+		float: center;
 	}	
 	#footer-copyright{
 		display:inline-block;
