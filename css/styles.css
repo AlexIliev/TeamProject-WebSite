@@ -1,5 +1,5 @@
 /*color schemes
-#E3F026 , #F07A26 , #7DE825 , #49940C
+#E3F026 , #F07A26 , #7DE825 , #73D115
 */
 
 body{
@@ -55,7 +55,7 @@ ul {
 	list-style-type: none;
 }
 #footer-content{
-	background: #49940C;
+	background: #73D115;
 	height: 20%;
 }
 	#footer-content div{
