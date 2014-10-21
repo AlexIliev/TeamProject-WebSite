@@ -68,13 +68,13 @@ main {
         .main-news header h1 span:hover  {
             color: #7C006E;
         }
-        .main-news article div{
+        .main-news article h2{
             color: #1F067A;
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
-        .main-news article div:hover{
+        .main-news article h2:hover{
             color: #1F067A;
-            font-size: 3rem;
+            font-size: 2.5rem;
             background: radial-gradient(ellipse at center,
             rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
         }
