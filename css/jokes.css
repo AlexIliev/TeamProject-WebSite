@@ -1,0 +1,37 @@
+﻿.jokes {
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 80%;
+    margin: 1% 10%;
+    overflow:auto;   
+    /*display: flex;*/
+}
+
+.funs {
+    float: left;
+    width: 75%;
+    display:inline-block;
+    text-align: center;
+}
+
+.jokes p::after {
+        content: url('../pictures/green-pumpkin-small.jpg');
+        display:block;
+        margin: 0;
+        padding-left: 45%;
+        width: 30px;
+    }
+
+.pics {
+    float: right;
+    width: 25%;  
+    display: inline-block;
+}
+
+.pics img {
+    width: 100%;
+    display: block;
+    margin: 10px 0px;
+}
+
+
