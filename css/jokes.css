@@ -1,9 +1,12 @@
-﻿.jokes {
+﻿img {
+max-width:100%;
+}
+.jokes {
     border: 3px solid white;
     border-radius: 15px;
     width: 80%;
     margin: 1% 10%;
-    overflow:auto;   
+	overflow:auto;   
     /*display: flex;*/
 }
 
