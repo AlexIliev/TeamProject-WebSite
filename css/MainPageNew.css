@@ -38,6 +38,21 @@ main {
     font-family: 'Times New Roman';
     font-size: 1.6rem;
 }
+article a:link{
+    display: block;
+    color: #1F067A;
+    font-size: 1.6rem;
+}
+article a:visited{
+    color: #610065;
+    font-size: 1.6rem;
+}
+article a:hover{
+    color: #1F067A;
+    font-size: 1.6rem;
+    background: radial-gradient(ellipse at center,
+    rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
+}
 
 .main-news {
     width: 100%;
@@ -58,8 +73,8 @@ main {
         width: 100%;
         height: 10%;
         font-size: 1.6rem;
-    background: linear-gradient(to bottom,
-    rgba(143,196,0,1) 43%,rgba(0,237,83,1) 99%);
+        background: linear-gradient(to bottom,
+        rgba(143,196,0,1) 43%,rgba(0,237,83,1) 99%);
     }
 
         .main-news header h1 span  {
@@ -107,7 +122,74 @@ main {
         background-repeat: no-repeat, no-repeat;
         background-position: 775px 80px, 500px 90px, 100px 80px, left top;
     }
+.useful-habits {
+    width: 40%;
+    height: 25%;
+    margin: 10px 10px;
+    text-align: center;
+    border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
+}
+    .useful-habits header{
+        display: inline-block;
+        width: 100%;
+        height: 10%;
+        font-size: 1.1rem;
+        background: linear-gradient(to bottom,
+        rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
+    }
+        .useful-habits header h1 span  {
+            color: #911500;
+        }
+        .useful-habits header h1 span:hover  {
+            color: #7C006E;
+        }
+    .useful-habits-content{
+        width: 100%;
+        height: 85%;
+        position: relative;
+        background-image:
+        url("../pictures/main/articles/teamwork.jpg"),
+        url("../pictures/main/articles/useful-habbts.jpg"),
+        radial-gradient(ellipse at center,
+        rgba(206,219,233,0.3) 0%,rgba(72,196,234,0.3) 0%,
+        rgba(71,151,237,0.3) 49%,rgba(61,137,219,0.3) 100%);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 56px 50px, 252px 50px,left top;
+    }
 
+.social-skills {
+    width: 40%;
+    height: 25%;
+    margin: -264px 544px;
+    text-align: center;
+    border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
+}
+    .social-skills header{
+         display: inline-block;
+         width: 100%;
+         height: 10%;
+         font-size: 1.1rem;
+         background: linear-gradient(to bottom,
+         rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
+     }
+        .social-skills header h1 span  {
+            color: #911500;
+        }
+        .social-skills header h1 span:hover  {
+            color: #7C006E;
+        }
+        .social-skills-content{
+            width: 100%;
+            height: 85%;
+            position: relative;
+            background-image:
+            url("../pictures/main/articles/usefulhabbts1.jpg"),
+            radial-gradient(ellipse at center,
+            rgba(206,219,233,0.3) 0%,rgba(72,196,234,0.3) 0%,
+            rgba(71,151,237,0.3) 49%,rgba(61,137,219,0.3) 100%);
+            background-repeat: no-repeat, no-repeat;
+            background-position: 130px 50px,left top;
+        }
 /*aside style*/
 .jokes {
     margin: 20px 10px;
