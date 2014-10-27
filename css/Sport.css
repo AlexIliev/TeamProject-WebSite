@@ -72,19 +72,124 @@ footer {
     margin-top: 0px;
     font-size: 1.2rem;
 }
+<<<<<<< HEAD
 .useful-links li{
     display:inline-block;
 }
+=======
+footer div h4{
+    margin-bottom: 5%;
+}
+footer div ul li {
+    margin-right: 3%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+#footer-content{
+    background: #73D115;
+    height: 20%;
+}
+#footer-content div{
+    padding: 1%;
+}
+#footer-content a{
+    display: block;
+}
+#footer-content a:hover{
+    display: block;
+    opacity: 0.5;
+}
+#footer-links{
+    display:inline-block;
+    height: 10%;
+    width: 20%;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 3%;
+    float:left;
+    overflow: auto;
+}
+.useful-links li{
+    display:inline-block;
+}
+
+#footer-partners {
+    display:inline-block;
+    height: 10%;
+    width: 25%;
+    margin-right: 6%;
+    margin-top: 3%;
+}
+#footer-partners div.nakov-footer{
+    display: inline-block;
+    margin-top: -15%;
+}
+#footer-partners div.nakov-footer-sign{
+    display: inline-block;
+    float: left;
+    margin-left: -4%;
+}
+#footer-copyright{
+    display:inline-block;
+    height: 10%;
+    width: 25%;
+    margin-top: -4%;
+    float: right;
+    font-size: 0.8rem;
+}
+
+#navigation ul  li:hover{
+    display: block;
+}
+#navigation ul{
+    width:100%;
+    background-color: #E3F026;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    /*padding: 0 87px 0 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;*/
+    position: relative;
+    display: inline-table;
+    float: right;
+    /* margin-top: 0%, za da se vidijda v "menu.html" */
+    margin-top: -6px;
+}
+#navigation ul li{
+    display: inline-block;
+    float: left;
+    padding-left: 30px;
+}
+#navigation ul li:hover {
+    background-color: #F07A26;
+}
+
+#navigation ul li:hover a {
+    color: #FFF;
+}
+
+#navigation ul li a {
+    display: block;
+    padding: 15px 34px;
+    color: #757575;
+    text-decoration: none;
+	text-align: center;
+}
+>>>>>>> origin/master
 body section article  {
     width:90%;
     height:20%;
-    background:blue;
+    background:#E3F026;
     margin:1% 1%;
     margin-top:10%;
-    border-radius:10px 10px 10px 10px;
+    border-radius:5px 5px 5px 5px;
 }
 body section article h1 {
-border-radius:10px 10px 10px 10px;
+border-radius:5px  5px 5px 5px;
+
 }
 
 .section {
@@ -107,7 +212,42 @@ border-radius:10px 10px 10px 10px;
 }
 .pic-div {
 	float:right;
-	width:50%;
+	width:45%;
 	height:100%;
 	display:inline-block;
+}
+.news-head {
+width:99%
+}
+.validators ul li{
+    display: inline-block;
+    float: right;
+	margin: -20px 63px 10px 0px;
+}
+.validator {
+width:300px;
+float:right;
+}
+/* Header fixes */
+
+.head-background {
+width:100%;
+}
+.head-socks {
+width:10%;
+position:absolute;
+top: 0; 
+left: 10%
+}
+.head-pear {
+width:13%;
+position: absolute; 
+top: 0;
+left:75%;
+}
+.head-name {
+width:65%;
+position:absolute;
+top: 5%;
+left: 18%; 
 }
