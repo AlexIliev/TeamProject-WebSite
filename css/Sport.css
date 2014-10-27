@@ -208,13 +208,14 @@ ul {
 body section article  {
     width:90%;
     height:20%;
-    background:blue;
+    background:#E3F026;
     margin:1% 1%;
     margin-top:10%;
-    border-radius:10px 10px 10px 10px;
+    border-radius:5px 5px 5px 5px;
 }
 body section article h1 {
-border-radius:10px 10px 10px 10px;
+border-radius:5px  5px 5px 5px;
+
 }
 
 .section {
@@ -240,4 +241,12 @@ border-radius:10px 10px 10px 10px;
 	width:50%;
 	height:100%;
 	display:inline-block;
+}
+.news-head{
+width:99%
+}
+.validators ul li{
+    display: inline-block;
+    float: right;
+	margin: -20px 63px 10px 0px;
 }
