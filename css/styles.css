@@ -132,10 +132,8 @@ ul {
     color: #FFF;
 }
 #navigation ul li a {
-}
-#navigation ul li a {
     display: block;
-    padding: 15px 34px;
+    padding: 15px 30px;
     color: #757575;
     text-decoration: none;
 }

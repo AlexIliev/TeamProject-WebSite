@@ -312,7 +312,7 @@ ul {
 #navigation ul li{
     display: inline-block;
     float: left;
-    padding-left: 30px;
+    text-align: center;
 }
 #navigation ul li:hover {
     background-color: #F07A26;
@@ -321,11 +321,11 @@ ul {
 #navigation ul li:hover a {
     color: #FFF;
 }
+
 #navigation ul li a {
-}
-#navigation ul li a {
-    display: block;
-    padding: 15px 34px;
+    display: inline-block;
+    padding: 15px 48px;
     color: #757575;
     text-decoration: none;
+    text-align: center;
 }
