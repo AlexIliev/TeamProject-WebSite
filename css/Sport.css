@@ -236,22 +236,17 @@ border-radius:5px  5px 5px 5px;
     display: inline-block;
     font-size:1.5rem;
 }
-.pic-div {
+.pic-div" {
 	float:right;
 	width:50%;
 	height:100%;
 	display:inline-block;
 }
-.news-head {
+.news-head{
 width:99%
 }
 .validators ul li{
     display: inline-block;
     float: right;
 	margin: -20px 63px 10px 0px;
-}
-/* Header fixes */
-
-.head-background {
-width:100%;
 }
