@@ -1,41 +1,7 @@
-/*color schemes
-#E3F026 , #F07A26 , #7DE825 , #73D115
-*/
-
-body{
-    background-color: #B2FFCC;
-    background-attachment: fixed;
-    background-size: 240px 240px;
-    background-position: center center;
-    font-family: AndaleMono;
-}
-div{
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    /* Maham go, zashtoto mi slaga nqkakva sqnka
-    i border vuv vsichki div na footer-a //Alex
-    -webkit-box-shadow: 0 2px 2px 0 #C2C2C2;
-    box-shadow: 0 2px 2px 0 #C2C2C2;*/
-}
-body, div, header, section, article, footer, h1, h2, h3, h4, nav, ul, li, p, a, figure, figcaption, img {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-decoration: none;
-}
-header{
-    height: 20%;
-    width: 100%;
-    margin-bottom: 0px;
-    font-size: 1.2rem;
-}
 main {
     width: 100%;
     margin-top: -10px;
     height: 1000px;
-    background-image: url('../pictures/greenWall2.jpg');
-    font-family: 'Times New Roman';
     font-size: 1.6rem;
 }
 article a:link{
@@ -50,8 +16,7 @@ article a:visited{
 article a:hover{
     color: #1F067A;
     font-size: 1.6rem;
-    background: radial-gradient(ellipse at center,
-    rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
+    background: lightyellow;
 }
 
 .main-news {
@@ -66,15 +31,11 @@ article a:hover{
         width: 100%;
         height: 10%;
         font-size: 1.6rem;
-        background: linear-gradient(to bottom,
-        rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
     }
     .main-news header:hover {
         width: 100%;
         height: 10%;
         font-size: 1.6rem;
-        background: linear-gradient(to bottom,
-        rgba(143,196,0,1) 43%,rgba(0,237,83,1) 99%);
     }
 
         .main-news header h1 span  {
@@ -90,8 +51,7 @@ article a:hover{
         .main-news article h2:hover{
             color: #1F067A;
             font-size: 2.5rem;
-            background: radial-gradient(ellipse at center,
-            rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
+            background: lightgoldenrodyellow;
         }
 
     .main-article{
@@ -101,10 +61,7 @@ article a:hover{
         background-image:
         url("../pictures/main/main_article/nakov-mainpage.jpg"),
         url("../pictures/main/main_article/right_arrow.png"),
-        url("../pictures/main/main_article/monstersuniversity.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(206,219,233,0.3) 0%,rgba(72,196,234,0.3) 0%,
-        rgba(71,151,237,0.3) 49%,rgba(61,137,219,0.3) 100%);
+        url("../pictures/main/main_article/monstersuniversity.jpg");
         background-repeat: no-repeat, no-repeat;
         background-position: 775px 80px, 500px 90px, 100px 80px, left top;
     }
@@ -115,10 +72,7 @@ article a:hover{
         background-image:
         url("../pictures/main/main_article/nakov-mainpage.jpg"),
         url("../pictures/main/main_article/right_arrow.png"),
-        url("../pictures/main/main_article/monstersuniversity.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(206,219,233,0.4) 0%,rgba(72,196,234,0.4) 0%,
-        rgba(71,151,237,0.4) 49%,rgba(61,137,219,0.4) 100%);
+        url("../pictures/main/main_article/monstersuniversity.jpg"));
         background-repeat: no-repeat, no-repeat;
         background-position: 775px 80px, 500px 90px, 100px 80px, left top;
     }
@@ -134,8 +88,6 @@ article a:hover{
         width: 100%;
         height: 10%;
         font-size: 1.1rem;
-        background: linear-gradient(to bottom,
-        rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
     }
         .useful-habits header h1 span  {
             color: #911500;
@@ -149,11 +101,7 @@ article a:hover{
         position: relative;
         background-image:
         url("../pictures/main/articles/teamwork.jpg"),
-        url("../pictures/main/articles/useful-habbts.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+        url("../pictures/main/articles/useful-habbts.jpg");
         background-repeat: no-repeat, no-repeat, no-repeat;
         background-position: 56px 50px, 252px 50px,left top;
     }
@@ -170,8 +118,6 @@ article a:hover{
          width: 100%;
          height: 10%;
          font-size: 1.1rem;
-         background: linear-gradient(to bottom,
-         rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
      }
         .social-skills header h1 span  {
             color: #911500;
@@ -184,11 +130,7 @@ article a:hover{
             height: 85%;
             position: relative;
             background-image:
-            url("../pictures/main/articles/usefulhabbts1.jpg"),
-            radial-gradient(ellipse at center,
-            rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-            rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-            rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+            url("../pictures/main/articles/usefulhabbts1.jpg");
             background-repeat: no-repeat, no-repeat;
             background-position: 130px 50px,left top;
         }
@@ -204,8 +146,6 @@ article a:hover{
     width: 100%;
     height: 10%;
     font-size: 1.1rem;
-    background: linear-gradient(to bottom,
-    rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
 }
 .accommodation header h1 span  {
     color: #911500;
@@ -219,11 +159,7 @@ article a:hover{
     position: relative;
     background-image:
     url("../pictures/main/articles/accomodation.jpg"),
-    url("../pictures/main/articles/accommodation1.jpg"),
-    radial-gradient(ellipse at center,
-    rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-    rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-    rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+    url("../pictures/main/articles/accommodation1.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 22px 50px,221px 50px,left top;
 }
@@ -239,8 +175,6 @@ article a:hover{
     width: 100%;
     height: 10%;
     font-size: 1.1rem;
-    background: linear-gradient(to bottom,
-    rgba(107,188,15,1) 33%,rgba(18,234,133,1) 70%);
 }
 .work header h1 span  {
     color: #911500;
@@ -254,11 +188,7 @@ article a:hover{
     position: relative;
     background-image:
     url("../pictures/main/articles/kariera_SoftUni.jpg"),
-    url("../pictures/main/articles/work.jpg"),
-    radial-gradient(ellipse at center,
-    rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-    rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-    rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+    url("../pictures/main/articles/work.jpg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 45px 50px,337px 50px,left top;
 }
@@ -305,12 +235,6 @@ footer div h4{
 }
 footer div ul li {
     margin-right: 3%;
-}
-a {
-    text-decoration: none;
-}
-ul {
-    list-style-type: none;
 }
 #footer-content{
     background: #73D115;
@@ -373,41 +297,4 @@ ul {
     margin-top: 5%;
     /* float: right; */
     font-size: 0.8rem;
-}
-
-#navigation ul  li:hover{
-    display: block;
-}
-#navigation ul{
-    width:100%;
-    background-color: #E3F026;
-    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
-    /*padding: 0 87px 0 90px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;*/
-    position: relative;
-    display: inline-table;
-    float: right;
-    /* margin-top: 0%, za da se vidijda v "menu.html" */
-    margin-top: -6px;
-}
-#navigation ul li{
-    display: inline-block;
-    float: left;
-    text-align: center;
-}
-#navigation ul li:hover {
-    background-color: #F07A26;
-}
-
-#navigation ul li:hover a {
-    color: #FFF;
-}
-
-#navigation ul li a {
-    display: inline-block;
-    padding: 15px 48px;
-    color: #757575;
-    text-decoration: none;
-    text-align: center;
 }
