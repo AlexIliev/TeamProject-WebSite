@@ -1,26 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Socks News</title>
+    <title>MainPage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/styleEduca.css" type="text/css">
-    <link rel="stylesheet" href="../css/header&menu&footer.css" type="text/css">
+    <link rel="stylesheet" href="../css/MainPageNew.css" type="text/css">
+	<link rel="stylesheet" href="../css/styleEduca.css" type="text/css">
 </head>
 <body>
 <header>
-    <div>
-        <img src="../pictures/header/grass.png" alt="Background of the Header" width="100%" />
-<!--<<<<<<< HEAD-->
-        <img src="../pictures/header/socks.png" width="30%" style="position: absolute; top: -176px; left: -2px;"/>
-        <img src="../pictures/header/pear.png" alt="Logo" width="12%" style="position: absolute; top: 20px; left: 79%;" />
-        <img src="../pictures/header/name.png" width="80%" alt="Name of the Site" style="position: absolute; top: 5%; left: 12%; " />
-<!--=======-->
-        <img src="../pictures/header/socks.png" width="10%" style="position: absolute; top: 0; left: 10%;"/>
-        <img src="../pictures/header/pear.png" alt="Logo" width="13%" style="position: absolute; top: 0; left: 75%;" />
-        <img src="../pictures/header/name.png" width="65%" alt="Name of the Site" style="position: absolute; top: 5%; left: 18%; " />
-<!-- >>>>>>> origin/master-->
-    </div>
+    <div class="header-content"></div>
 </header>
 <div id="navigation">
     <ul>
@@ -28,29 +17,26 @@
         <li id="education"><a href="education.html">ОБРАЗОВАНИЕ</a></li>
         <li id="technology"><a href="#">ТЕХНОЛОГИИ</a></li>
         <li id="sport"><a href="Sport.html">СПОРТ</a></li>
-        <li id="world"><a href="World.html">СВЯТ</a></li>
+        <li id="world"><a href="#">СВЯТ</a></li>
         <li id="fun"><a href="jokes.html">ЗАБАВЛЕНИЕ</a></li>
         <li id="contacts"><a href="contacts.html">КОНТАКТИ</a></li>
     </ul>
 </div>
 <main>
-
-    <header>
-        <h1><span>Team Bartlett Pear presents:</span></h1>
-    </header>
-
-
+    
     <section class ="section">
         <article class="education">
-            <img class="img1" src="../pictures/softunimars.jpg"/>
-            <h2>Софтуни вече и на Марс!</h2>
+		<img class="img1" src="../pictures/softunimars.jpg"/>
+		<h2>Софтуни вече и на Марс!</h2>
             <div class="text">
                 <p><img class="img2" src="../pictures/nakov-nasa.jpg"/> <span>С голяма радост искаме да ви съобщим, че Socks Uni
                     вече разшири своя географски обсег и предлага за първи път курс на Марс.</span> След успешната мисия
                     "Curiosity" за търсене на живот, NASA реши да потърси д-р Светлин Наков за отговор на въпроса 
                     "Как най-лесно да стоплим отношенията си с новите ни съседи?". Отговорът му естествено бил 
-                    <code>"Keep calm and learn to code!"</code>. Според него, най-важните неща са - първо да научат английски и след<img class="img3" src="../pictures/raketa-2.jpg">
-                    това да се научат да пишат код.Относно начина, по който ще протече мисията, планът е следния:
+                    <code>"keep calm and learn to code!"</code>.</p>
+                    <p>Според него, най-важните неща са - първо да научат английски и след
+                    <img class="img3" src="../pictures/raketa-2.jpg">
+                    това да се научат да пишат код.Относно начина, по който ще протече мисията, планът е следния: 
                     Ракетата ще се построи от NASA, но софтуерът за нея ще бъде написан от студентите ниво#1 като
                     "екипна работа", които ще преминат задлжителен "fast track" курс за каране на трутинетка.
                     <img class="img4" src="../pictures/Dachev-E.T..jpg"/>
@@ -58,8 +44,11 @@
                     справят, ще бъдат изпратени с първата мисия до Марс с ракетата, чийто софтуер са писали.
                     Най-добрите ще имат възможност да започнат обучението на новите марсиански попълнения.</p>
             </div>
-        </article>
+		</article>
     </section>
+        
+           
+        
 </main>
 <footer>
     <div id="footer-content">
@@ -67,27 +56,27 @@
             <h4>Полезни връзки</h4>
             <ul class="useful-links">
                 <li>
-                    <a class="softuni" href="https://softuni.bg/">
+                    <a class="softuni" href="https://softuni.bg/" target="_blank">
                         <img src="../pictures/footer/softuni.png" alt="SoftUni">
                     </a>
                 </li>
                 <li>
-                    <a class="facebook" href="https://www.facebook.com/">
+                    <a class="facebook" href="https://www.facebook.com/" target="_blank">
                         <img src="../pictures/footer/facebook.png" alt="Facebook">
                     </a>
                 </li>
                 <li>
-                    <a class="twitter" href="https://twitter.com/">
+                    <a class="twitter" href="https://twitter.com/" target="_blank">
                         <img src="../pictures/footer/twitter.png" alt="Twitter">
                     </a>
                 </li>
                 <li>
-                    <a class="linkedin" href="https://www.linkedin.com">
+                    <a class="linkedin" href="https://www.linkedin.com" target="_blank">
                         <img src="../pictures/footer/linkedin.png" alt="Linkedin">
                     </a>
                 </li>
                 <li>
-                    <a class="github" href="https://github.com/">
+                    <a class="github" href="https://github.com/" target="_blank">
                         <img src="../pictures/footer/github.png" alt="GitHub">
                     </a>
                 </li>
@@ -98,15 +87,30 @@
             <div>
                 <div class="nakov-footer-sign">The BIG BOSS</div>
                 <div class="nakov-footer">
-                    <a class="footer-nakov" href="http://www.nakov.com/">
+                    <a class="footer-nakov" href="http://www.nakov.com/" target="_blank">
                         <img src="../pictures//footer/nakov_footer.png" alt="Partner Nakov">
                     </a>
                 </div>
             </div>
         </div>
         <div id="footer-copyright">
-            &copy; 2014 Sucks News All rights reserved
+            <div class="validators">
+                <ul>
+                    <li>
+                        <a class="html5-validator" href="http://validator.w3.org/" target="_blank">
+                            <img src="../pictures/footer/W3C_HTML5_certified.png" alt="HTML5 validator">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="css3-validator" href="http://validator.w3.org/" target="_blank">
+                            <img src="../pictures/footer/valid-css.png" alt="CSS3 validator">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copyright">&copy; 2014 Sucks News All rights reserved</div>
         </div>
+    </div>
     </div>
 </footer>
 </body>
