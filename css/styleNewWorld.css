@@ -1,0 +1,64 @@
+.education {
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    width: 1024px;
+    height: 850px;
+    background-color: gold;
+    margin: 150px 128px 100px 128px;
+    opacity: 0.9;
+    font-family: "Times New Roman" , "Arial";
+    font-size: 20px;
+
+}
+img {
+max-width:100%;
+}
+h2{
+    margin: 0px 0px 0px 40px;
+}
+
+.text{
+    text-align: left;
+    display: block;
+    margin: 10px 40px 0px 40px ;
+}
+.text p span{
+    font-weight: bold;
+}
+.text p code{
+    font-weight: bold;
+    color: red;
+}
+
+
+#article-world{
+ height:950px;
+ width:900px;
+ background:yellow;
+ margin-top:100px;
+ margin-left:170px;
+ border-radius:10px 10px 10px 10px;
+ border:1px solid black;
+ 
+}
+#article-world p { 
+font-size:2.5rem;
+}
+#article-world h2 {
+	text-align:center;
+}
+#apple-laptop {
+	height:220px;
+	width:200px;
+	float:left;
+}
+#top-student {
+	height:180px;
+	width:150px;
+	float:right;
+}
+#old-computer {
+	height:160px;
+	width:200px;
+	float:left;
+}
