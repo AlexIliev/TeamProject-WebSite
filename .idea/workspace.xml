@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0a4c70-817d-4784-ae71-a0ad56220162" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MainPageNew.css" afterPath="$PROJECT_DIR$/css/MainPageNew.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/MainPageNew.html" afterPath="$PROJECT_DIR$/html/MainPageNew.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamProject-WebSite.iws" />
@@ -26,14 +26,14 @@
     <favorites_list name="TeamProject-WebSite" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.22704837">
+    <splitter split-orientation="horizontal" split-proportion="0.57847977">
       <split-first>
         <leaf>
           <file leaf-file-name="MainPageNew.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/html/MainPageNew.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7362069" vertical-offset="2021" max-vertical-offset="2652">
-                  <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+                <state vertical-scroll-proportion="0.7155172" vertical-offset="809" max-vertical-offset="2652">
+                  <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -46,8 +46,8 @@
           <file leaf-file-name="MainPageNew.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/MainPageNew.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7092084" vertical-offset="3097" max-vertical-offset="6358">
-                  <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
+                <state vertical-scroll-proportion="0.22442244" vertical-offset="0" max-vertical-offset="6358">
+                  <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
                   <folding />
                 </state>
               </provider>
@@ -220,7 +220,13 @@
       <option name="project" value="LOCAL" />
       <updated>1414504170399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="and...removed hover from span elements">
+      <created>1414504303854</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1414504303854</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -265,7 +271,8 @@
     </option>
     <MESSAGE value="Last edit to MainPage...pixel sizes everywhere" />
     <MESSAGE value="and new images to main...." />
-    <option name="LAST_COMMIT_MESSAGE" value="and new images to main...." />
+    <MESSAGE value="and...removed hover from span elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="and...removed hover from span elements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -446,24 +453,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/Sport.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="3536">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/Sport.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2006">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/education.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2006">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -481,18 +474,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/MainPageNew.html">
+    <entry file="file://$PROJECT_DIR$/css/MainPageNew.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7362069" vertical-offset="2021" max-vertical-offset="2652">
-          <caret line="144" column="42" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.22442244" vertical-offset="0" max-vertical-offset="6358">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/MainPageNew.css">
+    <entry file="file://$PROJECT_DIR$/html/World.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7092084" vertical-offset="3097" max-vertical-offset="6358">
-          <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.5862069" vertical-offset="51" max-vertical-offset="2635">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/Sport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="3536">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="2006">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/MainPageNew.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7155172" vertical-offset="809" max-vertical-offset="2652">
+          <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
           <folding />
         </state>
       </provider>
