@@ -1,7 +1,36 @@
+body, header, main, footer, aside, div, img,
+ul, li, a, section, article, p, h1, h2, h3, h4{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 1200px;
+    width: 1280px;
+    background-image: url('../pictures/greenWall2.jpg');
+    font-family: "Comic Sans MS", sans-serif;
+    list-style-type: none;
+    text-decoration: none
+}
+header{
+    height: 200px;
+    width: 1280px;
+    font-size: 1.2rem;
+}
+    .header-content{
+        height: 200px;
+        width: 1280px;
+        position: relative;
+        background-image:
+        url("../pictures/header/socks.png"),
+        url("../pictures/header/pear.png"),
+        url("../pictures/header/name.png"),
+        url("../pictures/header/grass.png");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 30px -150px, 941px 1px,175px 18px, left top;
+    }
 main {
-    width: 100%;
     margin-top: -10px;
-    height: 1000px;
+    height: 750px;
     font-size: 1.6rem;
 }
 article a:link{
@@ -16,33 +45,26 @@ article a:visited{
 article a:hover{
     color: #1F067A;
     font-size: 1.6rem;
-    background: lightyellow;
+    background: radial-gradient(ellipse at center,
+    rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
 }
 
 .main-news {
-    width: 100%;
-    height: 35%;
-    margin-top: 4%;
+    width: 1200px;
+    height: 350px;
+    /* margin-top: 4%; */
     text-align: center;
-    border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
+    box-shadow: 5px 5px 20px #426EFF;
+    margin: 0 auto; /* tova e samo za da se vidi kyde sedqt sekciite*/
 }
-
     .main-news header {
-        width: 100%;
-        height: 10%;
+        width: 1200px;
+        height: 100px;
         font-size: 1.6rem;
+        background-color: #FF9B19;
     }
-    .main-news header:hover {
-        width: 100%;
-        height: 10%;
-        font-size: 1.6rem;
-    }
-
         .main-news header h1 span  {
             color: #911500;
-        }
-        .main-news header h1 span:hover  {
-            color: #7C006E;
         }
         .main-news article h2{
             color: #1F067A;
@@ -51,147 +73,160 @@ article a:hover{
         .main-news article h2:hover{
             color: #1F067A;
             font-size: 2.5rem;
-            background: lightgoldenrodyellow;
+            background: radial-gradient(ellipse at center,
+            rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
         }
-
     .main-article{
-        width: 100%;
-        height: 90%;
+        width: 1200px;
+        height: 250px;
         position: relative;
         background-image:
         url("../pictures/main/main_article/nakov-mainpage.jpg"),
         url("../pictures/main/main_article/right_arrow.png"),
-        url("../pictures/main/main_article/monstersuniversity.jpg");
+        url("../pictures/main/main_article/monstersuniversity.jpg"),
+        radial-gradient(ellipse at center,
+        rgba(206,219,233,1) 0%,rgba(72,196,234,1) 0%,
+        rgba(71,151,237,1) 49%,rgba(61,137,219,1) 100%);
         background-repeat: no-repeat, no-repeat;
-        background-position: 775px 80px, 500px 90px, 100px 80px, left top;
-    }
-    .main-article:hover{
-        width: 100%;
-        height: 90%;
-        position: relative;
-        background-image:
-        url("../pictures/main/main_article/nakov-mainpage.jpg"),
-        url("../pictures/main/main_article/right_arrow.png"),
-        url("../pictures/main/main_article/monstersuniversity.jpg"));
-        background-repeat: no-repeat, no-repeat;
-        background-position: 775px 80px, 500px 90px, 100px 80px, left top;
+        background-position: 775px 37px, 500px 37px, 100px 37px, left top;
     }
 .useful-habits {
-    width: 40%;
-    height: 25%;
-    margin: 55px 10px;
+    width: 485px;
+    height: 260px;
+    margin-left: 40px;
+    margin-top: 40px;
     text-align: center;
     border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
 }
     .useful-habits header{
         display: inline-block;
-        width: 100%;
-        height: 10%;
+        width: 485px;
+        height: 40px;
         font-size: 1.1rem;
+        background-color: #FF9B19;
     }
         .useful-habits header h1 span  {
             color: #911500;
         }
-        .useful-habits header h1 span:hover  {
-            color: #7C006E;
-        }
     .useful-habits-content{
-        width: 100%;
-        height: 85%;
+        width: 485px;
+        height: 220px;
         position: relative;
         background-image:
         url("../pictures/main/articles/teamwork.jpg"),
-        url("../pictures/main/articles/useful-habbts.jpg");
+        url("../pictures/main/articles/useful-habbts.jpg"),
+        radial-gradient(ellipse at center,
+        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
+        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
+        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
         background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: 56px 50px, 252px 50px,left top;
+        background-position: 28px 50px, 207px 50px,left top;
     }
 
 .social-skills {
-    width: 40%;
-    height: 25%;
-    margin: -309px 544px;
+    width: 485px;
+    height: 260px;
+    margin-left: 567px;
+    margin-top: -264px;
     text-align: center;
+    box-shadow: 1px 1px 4px #426EFF;
     border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
 }
     .social-skills header{
          display: inline-block;
-         width: 100%;
-         height: 10%;
+         width: 485px;
+         height: 40px;
          font-size: 1.1rem;
+         background-color: #FF9B19;
      }
         .social-skills header h1 span  {
             color: #911500;
         }
-        .social-skills header h1 span:hover  {
-            color: #7C006E;
-        }
         .social-skills-content{
-            width: 100%;
-            height: 85%;
+            width: 485px;
+            height: 220px;
             position: relative;
             background-image:
-            url("../pictures/main/articles/usefulhabbts1.jpg");
+            url("../pictures/main/articles/usefulhabbts1.jpg"),
+            radial-gradient(ellipse at center,
+            rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
+            rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
+            rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
             background-repeat: no-repeat, no-repeat;
             background-position: 130px 50px,left top;
         }
 .accommodation {
-    width: 40%;
-    height: 25%;
-    margin: 340px 10px;
+    width: 485px;
+    height: 260px;
+    margin-left: 40px;
+    margin-top: 40px;
     text-align: center;
+    box-shadow: 1px 1px 4px #426EFF;
     border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
  }
-.accommodation header{
-    display: inline-block;
-    width: 100%;
-    height: 10%;
-    font-size: 1.1rem;
-}
-.accommodation header h1 span  {
-    color: #911500;
-}
-.accommodation header h1 span:hover  {
-    color: #7C006E;
-}
-.accommodation-content{
-    width: 100%;
-    height: 85%;
-    position: relative;
-    background-image:
-    url("../pictures/main/articles/accomodation.jpg"),
-    url("../pictures/main/articles/accommodation1.jpg");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 22px 50px,221px 50px,left top;
-}
+    .accommodation header{
+        display: inline-block;
+        width: 485px;
+        height: 40px;
+        font-size: 1.1rem;
+        background-color: #FF9B19;
+    }
+    .accommodation header h1 span  {
+        color: #911500;
+    }
+    .accommodation header h1 span:hover  {
+        color: #7C006E;
+    }
+    .accommodation-content{
+        width: 485px;
+        height: 220px;
+        position: relative;
+        background-image:
+        url("../pictures/main/articles/accommodaton.jpg"),
+        url("../pictures/main/articles/accommodaton1.jpg"),
+        radial-gradient(ellipse at center,
+        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
+        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
+        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 22px 50px,221px 50px,left top;
+    }
 .work {
-    width: 40%;
-    height: 25%;
-    margin: -594px 544px;
+    width: 485px;
+    height: 260px;
+    margin-left: 567px;
+    margin-top: -264px;
     text-align: center;
+    box-shadow: 1px 1px 4px #426EFF;
     border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
 }
-.work header{
-    display: inline-block;
-    width: 100%;
-    height: 10%;
-    font-size: 1.1rem;
-}
-.work header h1 span  {
-    color: #911500;
-}
-.work header h1 span:hover  {
-    color: #7C006E;
-}
-.work-content{
-    width: 100%;
-    height: 85%;
-    position: relative;
-    background-image:
-    url("../pictures/main/articles/kariera_SoftUni.jpg"),
-    url("../pictures/main/articles/work.jpg");
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: 45px 50px,337px 50px,left top;
-}
+    .work header{
+        display: inline-block;
+        width: 485px;
+        height: 40px;
+        font-size: 1.1rem;
+        background-color: #FF9B19;
+    }
+    .work header h1 span  {
+        color: #911500;
+    }
+    .work header h1 span:hover  {
+        color: #7C006E;
+    }
+    .work-content{
+        width: 485px;
+        height: 220px;
+        position: relative;
+        background-image:
+        url("../pictures/main/articles/kariera_softuni.jpg"),
+        url("../pictures/main/articles/kariera_softun3.jpg"),
+        radial-gradient(ellipse at center,
+        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
+        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
+        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 45px 50px,337px 50px,left top;
+    }
 /*aside style*/
 .jokes {
     margin: 20px 10px;
@@ -204,7 +239,7 @@ article a:hover{
     background-color:   rgba(107,188,15,0.5);  
     border: 3px solid white;
     border-radius: 10px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
     .jokes a {
@@ -225,9 +260,9 @@ article a:hover{
     }	
 	
 footer {
-    height:10%;
-    width: 100%;
-    margin-top: 0px;
+    height: 100px;
+    width: 1280px;
+    margin-top: 230px;
     font-size: 1.2rem;
 }
 footer div h4{
@@ -236,12 +271,16 @@ footer div h4{
 footer div ul li {
     margin-right: 3%;
 }
-#footer-content{
-    background: #73D115;
-    height: 20%;
+a {
+    text-decoration: none;
 }
-#footer-content div{
-    padding: 0%;
+ul {
+    list-style-type: none;
+}
+#footer-content{
+    background: #108014;
+    width: 1280px;
+    height: 100px;
 }
 #footer-content a{
     display: block;
@@ -252,12 +291,9 @@ footer div ul li {
 }
 #footer-links{
     display: inline-block;
-    height: 10%;
-    width: 20%;
-    margin: 5px 120px 0px 95px;
-    /* margin-left: 4%; */
-    /* margin-right: 12%; */
-    /* margin-top: 1%; */
+    height: 100px;
+    width: 175px;
+    margin: 12px 120px 0px 90px;
     float: left;
     overflow: auto;
 }
@@ -265,21 +301,12 @@ footer div ul li {
 .useful-links li{
     display:inline-block;
 }
-.validators{
-    margin: 17px 53px 76px 0px;
-}
-.validators ul li{
-    display: inline-block;
-    float: right;
-}
 
 #footer-partners {
     display: inline-block;
-    height: 10%;
-    width: 25%;
-    /* margin-right: 13%; */
-    /* margin-top: 1%; */
-    margin: 15px 74px 3px 85px;
+    height: 100px;
+    width: 260px;
+    margin: 16px 0 0px 100px;
 }
 #footer-partners div.nakov-footer{
     display: inline-block;
@@ -292,9 +319,57 @@ footer div ul li {
 }
 #footer-copyright{
     display: inline-block;
-    height: 10%;
-    width: 25%;
-    margin-top: 5%;
-    /* float: right; */
+    height: 100px;
+    width: 274px;
     font-size: 0.8rem;
+}
+    .validators{
+        margin-bottom: 50px;
+        margin-left: 400px;
+    }
+    .validators ul li{
+        display: inline-block;
+        float: right;
+    }
+    .copyright{
+        margin-left: 213px;
+        width: 250px;
+    }
+
+#navigation ul  li:hover{
+    display: block;
+}
+#navigation ul{
+    width:1280px;
+    height: 50px;
+    background-color: #E3F026;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    /*padding: 0 87px 0 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;*/
+    position: relative;
+    display: inline-table;
+    float: right;
+    /* margin-top: 0%, za da se vidijda v "menu.html" */
+    margin-top: -6px;
+}
+#navigation ul li{
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+#navigation ul li:hover {
+    background-color: #F07A26;
+}
+
+#navigation ul li:hover a {
+    color: #FFF;
+}
+
+#navigation ul li a {
+    display: inline-block;
+    padding: 15px 48px;
+    color: #757575;
+    text-decoration: none;
+    text-align: center;
 }

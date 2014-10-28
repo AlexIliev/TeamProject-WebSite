@@ -5,16 +5,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/MainPageNew.css" type="text/css">
-        <link rel="stylesheet" href="../css/header&menu&footer.css" type="text/css">
     </head>
     <body>
         <header>
-            <div>
-                <img src="../pictures/header/grass.png" alt="Background of the Header" width="100%" />
-                <img src="../pictures/header/socks.png" width="30%" style="position: absolute; top: -176px; left: -2px;"/>
-                <img src="../pictures/header/pear.png" alt="Logo" width="12%" style="position: absolute; top: 20px; left: 79%;" />
-                <img src="../pictures/header/name.png" width="80%" alt="Name of the Site" style="position: absolute; top: 5%; left: 12%; " />
-            </div>
+            <div class="header-content"></div>
         </header>
         <div id="navigation">
             <ul>
@@ -22,13 +16,16 @@
                 <li id="education"><a href="education.html">ОБРАЗОВАНИЕ</a></li>
                 <li id="technology"><a href="#">ТЕХНОЛОГИИ</a></li>
                 <li id="sport"><a href="Sport.html">СПОРТ</a></li>
-                <li id="world"><a href="World.html">СВЯТ</a></li>
+                <li id="world"><a href="#">СВЯТ</a></li>
                 <li id="fun"><a href="jokes.html">ЗАБАВЛЕНИЕ</a></li>
                 <li id="contacts"><a href="#">КОНТАКТИ</a></li>
             </ul>
         </div>
         <main>
             <section class="main-news">
+                <header>			
+                    <h1><span>Team Bartlett Pear presents:</span></h1>
+                </header>
                     <article class="main-article">
                         <h2><a target="_blank" href="#">SocksNews за SocksUni - малкото Stanford на Балканите</a></h2>
                     </article>
@@ -131,21 +128,21 @@
                     </div>
                 </div>
                 <div id="footer-copyright">
-                    &copy; 2014 Sucks News All rights reserved
-                </div>
-                <div class="validators">
-                    <ul>
-                        <li>
-                            <a class="html5-validator" href="http://validator.w3.org/" target="_blank">
-                                <img src="../pictures/footer/W3C_HTML5_certified.png" alt="HTML5 validator">
-                            </a>
-                        </li>
-                        <li>
-                            <a class="css3-validator" href="http://validator.w3.org/" target="_blank">
-                                <img src="../pictures/footer/valid-css.png" alt="CSS3 validator">
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="validators">
+                        <ul>
+                            <li>
+                                <a class="html5-validator" href="http://validator.w3.org/" target="_blank">
+                                    <img src="../pictures/footer/W3C_HTML5_certified.png" alt="HTML5 validator">
+                                </a>
+                            </li>
+                            <li>
+                                <a class="css3-validator" href="http://validator.w3.org/" target="_blank">
+                                    <img src="../pictures/footer/valid-css.png" alt="CSS3 validator">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyright">&copy; 2014 Sucks News All rights reserved</div>
                 </div>
                 </div>
             </div>
