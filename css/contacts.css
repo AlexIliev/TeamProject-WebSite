@@ -1,0 +1,238 @@
+body, header, main, footer, aside, div, img,
+ul, li, a, section, article, p, h1, h2, h3, h4{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 1200px;
+    width: 1280px;
+    background-image: url('../pictures/greenWall2.jpg');
+    font-family: "Comic Sans MS", sans-serif;
+    list-style-type: none;
+    text-decoration: none
+}
+header{
+    height: 200px;
+    width: 1280px;
+    font-size: 1.2rem;
+}
+    .header-content{
+        height: 200px;
+        width: 1280px;
+        position: relative;
+        background-image:
+        url("../pictures/header/socks.png"),
+        url("../pictures/header/pear.png"),
+        url("../pictures/header/name.png"),
+        url("../pictures/header/grass.png");
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 30px -150px, 941px 1px,175px 18px, left top;
+    }
+main {
+    padding-left: 10px;
+    margin-top: -10px;
+    height: 750px;
+    font-size: 1.6rem;
+}
+article a:link{
+    display: block;
+    color: #1F067A;
+    font-size: 1.6rem;
+}
+article a:visited{
+    color: #610065;
+    font-size: 1.6rem;
+}
+article a:hover{
+    color: #1F067A;
+    font-size: 1.6rem;
+    background: radial-gradient(ellipse at center,
+    rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
+}
+.useful-habits {
+    width: 485px;
+    height: 260px;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+    border: 2px solid black; /* tova e samo za da se vidi kyde sedqt sekciite*/
+}
+.useful-habits header{
+    display: inline-block;
+    width: 485px;
+    height: 40px;
+    font-size: 1.1rem;
+    background-color: #FF9B19;
+}
+.useful-habits header h1 span  {
+    color: #911500;
+}
+.useful-habits-content{
+    width: 485px;
+    height: 220px;
+    position: relative;
+    background-image:
+    url("../pictures/contacts/binary-phone.png");
+    background-repeat: no-repeat;
+    background-position: 28px 50px, 207px 50px,left top;
+}
+
+
+/*aside style*/
+.jokes {
+    margin: 20px 10px;
+    padding: 5px 10px;
+    float: right;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 15%;
+    height: 600px;
+    background-color:   rgba(107,188,15,0.5);  
+    border: 3px solid white;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+    .jokes a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .jokes p {
+        font-size: 1.3rem;
+    }
+
+    .jokes p::after {
+        content: url('../pictures/green-pumpkin-small.jpg');
+        display:block;
+        margin: 0;
+        padding-left: 45%;
+        width: 30px;
+    }	
+	
+footer {
+    height: 100px;
+    width: 1280px;
+    margin-top: 230px;
+    font-size: 1.2rem;
+}
+footer div h4{
+    margin-bottom: 5%;
+}
+footer div ul li {
+    margin-right: 3%;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+#footer-content{
+    background: #108014;
+    width: 1280px;
+    height: 100px;
+}
+#footer-content a{
+    display: block;
+}
+#footer-content a:hover{
+    display: block;
+    opacity: 0.5;
+}
+#footer-links{
+    display: inline-block;
+    height: 100px;
+    width: 175px;
+    margin: 12px 120px 0px 90px;
+    float: left;
+    overflow: auto;
+}
+
+.useful-links li{
+    display:inline-block;
+}
+
+#footer-partners {
+    display: inline-block;
+    height: 100px;
+    width: 260px;
+    margin: 16px 0 0px 100px;
+}
+#footer-partners div.nakov-footer{
+    display: inline-block;
+    margin-top: -15%;
+}
+#footer-partners div.nakov-footer-sign{
+    display: inline-block;
+    float: left;
+    margin-left: -4%;
+}
+#footer-copyright{
+    display: inline-block;
+    height: 100px;
+    width: 274px;
+    font-size: 0.8rem;
+}
+    .validators{
+        margin-bottom: 50px;
+        margin-left: 400px;
+    }
+    .validators ul li{
+        display: inline-block;
+        float: right;
+    }
+    .copyright{
+        margin-left: 213px;
+        width: 250px;
+    }
+
+#navigation ul  li:hover{
+    display: block;
+}
+#navigation ul{
+    width:1280px;
+    height: 50px;
+    background-color: #E3F026;
+    box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+    /*padding: 0 87px 0 90px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;*/
+    position: relative;
+    display: inline-table;
+    float: right;
+    /* margin-top: 0%, za da se vidijda v "menu.html" */
+    margin-top: -6px;
+}
+#navigation ul li{
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+#navigation ul li:hover {
+    background-color: #F07A26;
+}
+
+#navigation ul li:hover a {
+    color: #FFF;
+}
+
+#navigation ul li a {
+    display: inline-block;
+    padding: 15px 48px;
+    color: #757575;
+    text-decoration: none;
+    text-align: center;
+}
+#phone{
+    width: 300px;
+    position: absolute;
+    float: right;
+}
+.clear-fix {
+    zoom:1;}
+.clear-fix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0; }
