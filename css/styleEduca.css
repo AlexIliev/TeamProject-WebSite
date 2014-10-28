@@ -109,12 +109,13 @@ ul {
 .education {
     border: 2px solid black;
     width: 1024px;
-    height: 1030px;
+    height: 850px;
     font-family: "Times New Roman";
-    font-size: 23px;
+    font-size: 18px;
     border-radius: 20px;
-    margin: 1% 1%;
-    margin-top: 5%;
+    margin:125px;
+    margin-top: 50px;
+    margin-bottom: 250px;
     border-radius: 10px 10px 10px 10px;
 }
 .text{
@@ -134,28 +135,29 @@ ul {
 .img1{
     padding-left: 40px;
     padding-top: 20px;
+
 }
 .img2{
     width: 250px;
     height: 190px;
     padding: 10px;
     display: block;
-    float: right;
+    float: left;
 }
 .img3 {
     width: 180px;
     height: 160px;
     display: inline-block;
-    float: left;
+    float: right;
     padding-top: 10px;
     padding-right: 10px;
 }
 .img4{
-    width: 180px;
-    height: 180px;
+    width: 140px;
+    height: 130px;
     padding: 10px;
     display: inline-block;
-    float: right;
+    float: left;
 }
 
 
