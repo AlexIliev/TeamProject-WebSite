@@ -174,9 +174,6 @@ article a:hover{
     .accommodation header h1 span  {
         color: #911500;
     }
-    .accommodation header h1 span:hover  {
-        color: #7C006E;
-    }
     .accommodation-content{
         width: 485px;
         height: 220px;
@@ -209,9 +206,6 @@ article a:hover{
     }
     .work header h1 span  {
         color: #911500;
-    }
-    .work header h1 span:hover  {
-        color: #7C006E;
     }
     .work-content{
         width: 485px;

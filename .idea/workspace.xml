@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0a4c70-817d-4784-ae71-a0ad56220162" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/main/articles/accommodaton.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/main/articles/accommodaton1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/main/articles/kariera_softun3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/main/articles/kariera_softuni.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pictures/main/articles/kariera_softuni2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/MainPageNew.css" afterPath="$PROJECT_DIR$/css/MainPageNew.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TeamProject-WebSite.iws" />
@@ -50,8 +46,8 @@
           <file leaf-file-name="MainPageNew.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/MainPageNew.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48949918" vertical-offset="1397" max-vertical-offset="6460">
-                  <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+                <state vertical-scroll-proportion="0.7092084" vertical-offset="3097" max-vertical-offset="6358">
+                  <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
                   <folding />
                 </state>
               </provider>
@@ -218,7 +214,13 @@
       <option name="project" value="LOCAL" />
       <updated>1414503966899</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="and new images to main....">
+      <created>1414504170399</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1414504170399</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -262,7 +264,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Last edit to MainPage...pixel sizes everywhere" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last edit to MainPage...pixel sizes everywhere" />
+    <MESSAGE value="and new images to main...." />
+    <option name="LAST_COMMIT_MESSAGE" value="and new images to main...." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -488,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/MainPageNew.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48949918" vertical-offset="1397" max-vertical-offset="6460">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.7092084" vertical-offset="3097" max-vertical-offset="6358">
+          <caret line="208" column="5" selection-start-line="208" selection-start-column="5" selection-end-line="208" selection-end-column="5" />
           <folding />
         </state>
       </provider>
