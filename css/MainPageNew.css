@@ -33,20 +33,17 @@ main {
     height: 750px;
     font-size: 1.6rem;
 }
-article a:link{
+
+article a{
     display: block;
-    color: #1F067A;
-    font-size: 1.6rem;
-}
-article a:visited{
-    color: #610065;
+    color: #DBD4BA;
     font-size: 1.6rem;
 }
 article a:hover{
-    color: #1F067A;
+    display:  block;
+    color: #AA9F05;
     font-size: 1.6rem;
-    background: radial-gradient(ellipse at center,
-    rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
+    background-color: #27848c;
 }
 
 .main-news {
@@ -54,27 +51,20 @@ article a:hover{
     height: 350px;
     /* margin-top: 4%; */
     text-align: center;
-    box-shadow: 5px 5px 20px #426EFF;
     margin: 0 auto; /* tova e samo za da se vidi kyde sedqt sekciite*/
 }
     .main-news header {
         width: 1200px;
         height: 100px;
         font-size: 1.6rem;
-        background-color: #FF9B19;
+        background-color: #568c27;
     }
         .main-news header h1 span  {
-            color: #911500;
+            color: #DBC77F;
         }
         .main-news article h2{
-            color: #1F067A;
+            color: #F4E407;
             font-size: 2.5rem;
-        }
-        .main-news article h2:hover{
-            color: #1F067A;
-            font-size: 2.5rem;
-            background: radial-gradient(ellipse at center,
-            rgba(252,242,151,1) 0%,rgba(241,218,54,1) 50%);
         }
     .main-article{
         width: 1200px;
@@ -83,12 +73,10 @@ article a:hover{
         background-image:
         url("../pictures/main/main_article/nakov-mainpage.jpg"),
         url("../pictures/main/main_article/right_arrow.png"),
-        url("../pictures/main/main_article/monstersuniversity.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(206,219,233,1) 0%,rgba(72,196,234,1) 0%,
-        rgba(71,151,237,1) 49%,rgba(61,137,219,1) 100%);
-        background-repeat: no-repeat, no-repeat;
-        background-position: 775px 37px, 500px 37px, 100px 37px, left top;
+        url("../pictures/main/main_article/monstersuniversity.jpg");
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: 775px 37px, 500px 37px, 100px 37px;
+        background-color:#278c2f;
     }
 .useful-habits {
     width: 485px;
@@ -103,10 +91,10 @@ article a:hover{
         width: 485px;
         height: 40px;
         font-size: 1.1rem;
-        background-color: #FF9B19;
+        background-color: #568c27;
     }
         .useful-habits header h1 span  {
-            color: #911500;
+            color: #DBC77F;
         }
     .useful-habits-content{
         width: 485px;
@@ -114,13 +102,10 @@ article a:hover{
         position: relative;
         background-image:
         url("../pictures/main/articles/teamwork.jpg"),
-        url("../pictures/main/articles/useful-habbts.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: 28px 50px, 207px 50px,left top;
+        url("../pictures/main/articles/useful-habbts.jpg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: 28px 50px, 207px 50px;
+        background-color:#278c2f;
     }
 
 .social-skills {
@@ -137,23 +122,20 @@ article a:hover{
          width: 485px;
          height: 40px;
          font-size: 1.1rem;
-         background-color: #FF9B19;
+        background-color: #568c27;
      }
         .social-skills header h1 span  {
-            color: #911500;
+            color: #DBC77F;
         }
         .social-skills-content{
             width: 485px;
             height: 220px;
             position: relative;
             background-image:
-            url("../pictures/main/articles/usefulhabbts1.jpg"),
-            radial-gradient(ellipse at center,
-            rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-            rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-            rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
+            url("../pictures/main/articles/usefulhabbts1.jpg");
             background-repeat: no-repeat, no-repeat;
-            background-position: 130px 50px,left top;
+            background-position: 130px 50px;
+            background-color:#278c2f;
         }
 .accommodation {
     width: 485px;
@@ -169,10 +151,10 @@ article a:hover{
         width: 485px;
         height: 40px;
         font-size: 1.1rem;
-        background-color: #FF9B19;
+        background-color: #568c27;
     }
     .accommodation header h1 span  {
-        color: #911500;
+        color: #DBC77F;
     }
     .accommodation-content{
         width: 485px;
@@ -180,13 +162,10 @@ article a:hover{
         position: relative;
         background-image:
         url("../pictures/main/articles/accommodaton.jpg"),
-        url("../pictures/main/articles/accommodaton1.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: 22px 50px,221px 50px,left top;
+        url("../pictures/main/articles/accommodaton1.jpg");
+        background-position: 22px 50px,221px 50px;
+        background-repeat: no-repeat, no-repeat;
+        background-color:#278c2f;
     }
 .work {
     width: 485px;
@@ -202,10 +181,10 @@ article a:hover{
         width: 485px;
         height: 40px;
         font-size: 1.1rem;
-        background-color: #FF9B19;
+        background-color: #568c27;
     }
     .work header h1 span  {
-        color: #911500;
+        color: #DBC77F;
     }
     .work-content{
         width: 485px;
@@ -213,13 +192,10 @@ article a:hover{
         position: relative;
         background-image:
         url("../pictures/main/articles/kariera_softuni.jpg"),
-        url("../pictures/main/articles/kariera_softun3.jpg"),
-        radial-gradient(ellipse at center,
-        rgba(30,87,153,1) 0%,rgba(32,124,202,1) 70%,
-        rgba(41,137,216,1) 79%,rgba(32,124,202,1) 88%,
-        rgba(32,124,202,1) 93%,rgba(125,185,232,1) 100%);
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        background-position: 45px 50px,337px 50px,left top;
+        url("../pictures/main/articles/kariera_softun3.jpg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: 45px 50px,337px 50px;
+        background-color:#278c2f;
     }
 /*aside style*/
 .jokes {
@@ -230,7 +206,7 @@ article a:hover{
     box-sizing: border-box;
     width: 15%;
     height: 600px;
-    background-color:   rgba(107,188,15,0.5);  
+    background-color: #278c2f;
     border: 3px solid white;
     border-radius: 10px;
     overflow: scroll;
@@ -238,7 +214,7 @@ article a:hover{
 
     .jokes a {
         text-decoration: none;
-        color: black;
+        color: #DBD4BA;
     }
 
     .jokes p {
@@ -336,7 +312,7 @@ ul {
 #navigation ul{
     width:1280px;
     height: 50px;
-    background-color: #E3F026;
+    background-color:  #278c2f;
     box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
     /*padding: 0 87px 0 90px;
     border-bottom-left-radius: 15px;
@@ -353,7 +329,7 @@ ul {
     text-align: center;
 }
 #navigation ul li:hover {
-    background-color: #F07A26;
+    background-color: #27848c;
 }
 
 #navigation ul li:hover a {
@@ -363,7 +339,7 @@ ul {
 #navigation ul li a {
     display: inline-block;
     padding: 15px 48px;
-    color: #757575;
+    color: #DBD4BA;
     text-decoration: none;
     text-align: center;
 }
