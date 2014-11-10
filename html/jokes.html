@@ -5,21 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="../css/MainPageNew.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/jokes.css"/>
 </head>
 <body>
     <header>
-        <div>
-            <img src="../pictures/header/grass.png" alt="Background of the Header" width="100%" />
-            <img src="../pictures/header/socks.png" width="30%" style="position: absolute; top: -176px; left: -2px;"/>
-            <img src="../pictures/header/pear.png" alt="Logo" width="12%" style="position: absolute; top: 20px; left: 79%;" />
-            <img src="../pictures/header/name.png" width="80%" alt="Name of the Site" style="position: absolute; top: 5%; left: 12%; " />
-        </div>
+        <div class="header-content"></div>
     </header>
     <div id="navigation">
         <ul>
             <li id="home"><a href="MainPageNew.html">НАЧАЛО</a></li>
             <li id="education"><a href="education.html">ОБРАЗОВАНИЕ</a></li>
-            <li id="technology"><a href="#">ТЕХНОЛОГИИ</a></li>
             <li id="sport"><a href="Sport.html">СПОРТ</a></li>
             <li id="world"><a href="World.html">СВЯТ</a></li>
             <li id="fun"><a href="jokes.html">ЗАБАВЛЕНИЕ</a></li>
@@ -27,14 +22,6 @@
         </ul>
     </div>
     <main>
-        <section class="main-news">
-            <header>
-                <h1><span>Team Bartlett Pear presents:</span></h1>
-            </header>
-            <article class="main-article">
-                <h2>SocksNews за SocksUni - малкото Stanford на Балканите</h2>
-            </article>
-        </section>
         <section class="jokes">
             <div class="funs">
                 <p>Ако не успяваш от първия път, значи трябва да си програмист.</p>
@@ -144,27 +131,27 @@
                 <h4>Полезни връзки</h4>
                 <ul class="useful-links">
                     <li>
-                        <a class="softuni" href="https://softuni.bg/">
+                        <a class="softuni" href="https://softuni.bg/" target="_blank">
                             <img src="../pictures/footer/softuni.png" alt="SoftUni">
                         </a>
                     </li>
                     <li>
-                        <a class="facebook" href="https://www.facebook.com/">
+                        <a class="facebook" href="https://www.facebook.com/" target="_blank">
                             <img src="../pictures/footer/facebook.png" alt="Facebook">
                         </a>
                     </li>
                     <li>
-                        <a class="twitter" href="https://twitter.com/">
+                        <a class="twitter" href="https://twitter.com/" target="_blank">
                             <img src="../pictures/footer/twitter.png" alt="Twitter">
                         </a>
                     </li>
                     <li>
-                        <a class="linkedin" href="https://www.linkedin.com">
+                        <a class="linkedin" href="https://www.linkedin.com" target="_blank">
                             <img src="../pictures/footer/linkedin.png" alt="Linkedin">
                         </a>
                     </li>
                     <li>
-                        <a class="github" href="https://github.com/">
+                        <a class="github" href="https://github.com/" target="_blank">
                             <img src="../pictures/footer/github.png" alt="GitHub">
                         </a>
                     </li>
@@ -175,15 +162,30 @@
                 <div>
                     <div class="nakov-footer-sign">The BIG BOSS</div>
                     <div class="nakov-footer">
-                        <a class="footer-nakov" href="http://www.nakov.com/">
+                        <a class="footer-nakov" href="http://www.nakov.com/" target="_blank">
                             <img src="../pictures//footer/nakov_footer.png" alt="Partner Nakov">
                         </a>
                     </div>
                 </div>
             </div>
             <div id="footer-copyright">
-                &copy; 2014 Sucks News All rights reserved
+                <div class="validators">
+                    <ul>
+                        <li>
+                            <a class="html5-validator" href="http://validator.w3.org/" target="_blank">
+                                <img src="../pictures/footer/W3C_HTML5_certified.png" alt="HTML5 validator">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="css3-validator" href="http://validator.w3.org/" target="_blank">
+                                <img src="../pictures/footer/valid-css.png" alt="CSS3 validator">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="copyright">&copy; 2014 Sucks News All rights reserved</div>
             </div>
+        </div>
         </div>
     </footer>
 </body>

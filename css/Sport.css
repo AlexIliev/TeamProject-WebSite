@@ -2,12 +2,40 @@
 #E3F026 , #F07A26 , #7DE825 , #73D115
 */
 
+body, header, main, footer, aside, div, img,
+ul, li, a, section, article, p, h1, h2, h3, h4{
+    padding: 0;
+    margin: 0;
+}
 body{
-    background-color: #B2FFCC;
-    background-attachment: fixed;
-    background-size: 240px 240px;
-    background-position: center center;
-    font-family: AndaleMono;
+    height: 1200px;
+    width: 1280px;
+    background-image: url('../pictures/greenWall2.jpg');
+    font-family: "Comic Sans MS", sans-serif;
+    list-style-type: none;
+    text-decoration: none
+}
+header{
+    height: 200px;
+    width: 1280px;
+    font-size: 1.2rem;
+}
+.header-content{
+    height: 200px;
+    width: 1280px;
+    position: relative;
+    background-image:
+    url("../pictures/header/socks.png"),
+    url("../pictures/header/pear.png"),
+    url("../pictures/header/name.png"),
+    url("../pictures/header/grass.png");
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 30px -150px, 941px 1px,175px 18px, left top;
+}
+main {
+    margin-top: -10px;
+    height: 750px;
+    font-size: 1.6rem;
 }
 div{
     -moz-border-radius: 4px;
@@ -24,19 +52,15 @@ body, div, header, section, article, footer, h1, h2, h3, h4, nav, ul, li, p, a, 
     list-style-type: none;
     text-decoration: none;
 }
-header{
-    height: 20%;
-    width: 100%;
-    margin-bottom: 0px;
-    font-size: 1.2rem;
-}
+
 main {
     width: 100%;
     margin-top: -10px;
     height: 1200px;
     background-image: url('../pictures/greenWall2.jpg');
-    font-family: 'Times New Roman';
-    font-size: 1.6rem;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1.2rem;
+    color: #DBD4BA;
 }
 
 h1 {
@@ -64,6 +88,17 @@ main header h1 span  {
 main header h1 span:hover  {
     color: #7C006E;
 }
+article a{
+    display: block;
+    color: #DBD4BA;
+    font-size: 1.6rem;
+}
+article a:hover{
+    display:  block;
+    color: #AA9F05;
+    font-size: 1.6rem;
+    background-color: #27848c;
+}
 
 
 /*aside style*/
@@ -81,27 +116,10 @@ main header h1 span:hover  {
     overflow: hidden;
 }
 
-.jokes a {
-    text-decoration: none;
-    color: black;
-}
-
-.jokes p {
-    font-size: 1.3rem;
-}
-
-.jokes p::after {
-    content: url('../pictures/green-pumpkin-small.jpg');
-    display:block;
-    margin: 0;
-    padding-left: 45%;
-    width: 30px;
-}
-
 footer {
-    height:20%;
-    width: 100%;
-    margin-top: 0px;
+    height: 100px;
+    width: 1280px;
+    margin-top: 230px;
     font-size: 1.2rem;
 }
 footer div h4{
@@ -117,11 +135,9 @@ ul {
     list-style-type: none;
 }
 #footer-content{
-    background: #73D115;
-    height: 20%;
-}
-#footer-content div{
-    padding: 1%;
+    background: #108014;
+    width: 1280px;
+    height: 100px;
 }
 #footer-content a{
     display: block;
@@ -131,25 +147,23 @@ ul {
     opacity: 0.5;
 }
 #footer-links{
-    display:inline-block;
-    height: 10%;
-    width: 20%;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-top: 3%;
-    float:left;
+    display: inline-block;
+    height: 100px;
+    width: 175px;
+    margin: 12px 120px 0px 90px;
+    float: left;
     overflow: auto;
 }
+
 .useful-links li{
     display:inline-block;
 }
 
 #footer-partners {
-    display:inline-block;
-    height: 10%;
-    width: 25%;
-    margin-right: 6%;
-    margin-top: 3%;
+    display: inline-block;
+    height: 100px;
+    width: 260px;
+    margin: 16px 0 0px 100px;
 }
 #footer-partners div.nakov-footer{
     display: inline-block;
@@ -161,20 +175,31 @@ ul {
     margin-left: -4%;
 }
 #footer-copyright{
-    display:inline-block;
-    height: 10%;
-    width: 25%;
-    margin-top: -4%;
-    float: right;
+    display: inline-block;
+    height: 100px;
+    width: 274px;
     font-size: 0.8rem;
+}
+.validators{
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+.validators ul li{
+    display: inline-block;
+    float: right;
+}
+.copyright{
+    margin-left: 213px;
+    width: 250px;
 }
 
 #navigation ul  li:hover{
     display: block;
 }
 #navigation ul{
-    width:100%;
-    background-color: #E3F026;
+    width:1280px;
+    height: 50px;
+    background-color:  #278c2f;
     box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
     /*padding: 0 87px 0 90px;
     border-bottom-left-radius: 15px;
@@ -188,10 +213,10 @@ ul {
 #navigation ul li{
     display: inline-block;
     float: left;
-    padding-left: 30px;
+    text-align: center;
 }
 #navigation ul li:hover {
-    background-color: #F07A26;
+    background-color: #27848c;
 }
 
 #navigation ul li:hover a {
@@ -199,29 +224,41 @@ ul {
 }
 
 #navigation ul li a {
-    display: block;
-    padding: 15px 34px;
-    color: #757575;
+    display: table-cell;
+    /* padding: 15px 48px; */
+    width: 200px;
+    height: 50px;
+    color: #DBD4BA;
     text-decoration: none;
-	text-align: center;
+    text-align: center;
+    vertical-align: middle;
 }
 body section article  {
-    width:90%;
-    height:20%;
-    background:#E3F026;
-    margin:1% 1%;
-    margin-top:10%;
-    border-radius:5px 5px 5px 5px;
+    width: 98%;
+    height: 28%;
+    background: #278c2f;
+    margin: 1% 1%;
+    margin-top: 15%;
+    border-radius: 5px 5px 5px 5px;
 }
 body section article h1 {
 border-radius:5px  5px 5px 5px;
 
 }
 
-.section {
+.section-left {
+    float:left;
+    width:40%;
+    height:100%;
+    margin-top: 30px;
+    margin-left: 70px;
+ }
+.section-right {
     float:right;
     width:40%;
     height:100%;
+    margin-top: 30px;
+    margin-right: 80px;
 }
 #section div img {
     float:right;
@@ -248,7 +285,6 @@ width:99%
 .validators ul li{
     display: inline-block;
     float: right;
-	margin: -20px 63px 10px 0px;
 }
 .validator {
 width:300px;
